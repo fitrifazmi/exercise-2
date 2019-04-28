@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator</title>
+    <link rel = "stylesheet" type = "text/css" href="assets\css/style.css"/>
+</head>
+<body>
+    <div class="box">  
+        <div class="badan">
+            <table>
+                <tr>
+                    <td colspan="5">
+                        <input type="text" disabled id="output" value="">
+                    </td>
+                </tr>
+                 <tr>
+                    <td><button class="btn" onclick="btn('1')">1</button></td>
+                    <td><button class="btn" onclick="btn('2')">2</button></td>
+                    <td><button class="btn" onclick="btn('3')">3</button></td>
+                    <td><button class="btn opr" id="x" onclick="btn_opr(1)">&#215</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="btn('4')">4</button></td>
+                    <td><button class="btn" onclick="btn('5')">5</button></td>
+                    <td><button class="btn" onclick="btn('6')">6</button></td>
+                    <td><button class="btn opr" id="bagi" onclick="btn_opr(2)">&#247</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="btn('7')">7</button></td>
+                    <td><button class="btn" onclick="btn('8')">8</button></td>
+                    <td><button class="btn" onclick="btn('9')">9</button></td>
+                    <td><button class="btn opr" id="kurang" onclick="btn_opr(3)">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="btn('0')">0</button></td>
+                    <td><button class="btn" onclick="koma()">.</button></td>
+                    <td><button class="btn clr" onclick="clr()">C</button></td>
+                    <td><button class="btn opr" id="tambah" onclick="btn_opr(4)">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn opr" id="pangkat" onclick="btn_opr(5)">&#178</button></td>
+                    <td><button class="btn opr" id = "akr" onclick="akar()">√</button></td>
+                    <td><button class="btn opr" id="back" onclick="backspace()">&#171</button></td>
+                    <td ><button class="btn hsl" onclick="hitung()">=</button></td>
+                </tr>
+            </table>
+            <script type="text/javascript" src="hitung.js"></script>
+        </div>
+    </div>
+    <h1><marquee>Silakan input :)</marquee></h1>
+</body>
+</html>

@@ -1,0 +1,99 @@
+.box {
+    width: 1000px;
+    height:560px;
+   background: linear-gradient(to right, rgb(196, 84, 84) , rgb(252, 252, 252), rgb(110, 201, 173)); /* GRADASI WARNA Standardx*/ 
+   /* background: rgb(211, 144, 211);*/
+   margin:20px auto;
+   widows:1000px;
+}
+
+.badan {
+    width:376px;
+    height:520px;
+    background-color:darkgray;
+    margin:0 auto;
+    top:20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 40px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    
+}
+
+table {
+    width:320px;
+    height: 520px;
+	border : none;
+	border-collapse: collapse;
+    border-radius: 90px;
+    float:right;
+}
+td{
+	border: none;
+}
+input[type=text]{
+    border-radius: 10px;
+	padding: 10px;
+	width: 350px;
+	text-align: right;
+	font-size: 16px;
+    height: 30px;
+}
+input[type=text]:disabled{
+	background-color:aliceblue;
+    font-weight:bold;
+}
+.btn {
+	width: 50px;
+	height: 50px;
+	background-color: #e8d5c5;
+    border: none;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:50%;
+    margin: 20px;
+    font-weight:bold;
+}
+#x{
+	background-color:deeppink;
+    font-size: 20px;
+}
+#bagi{
+    background-color:cadetblue;
+    font-size: 20px;
+}
+#kurang{
+    background-color:fuchsia;
+    font-size: 20px;
+}
+#akr{
+    background-color:chartreuse;
+    font-size: 20px;
+}
+#tambah{
+    background-color:darkorange;
+    font-size: 20px;
+}
+#pangkat{
+    background-color:cornflowerblue;
+    font-size: 20px;
+}
+#back{
+    background-color:darksalmon;
+    font-size: 20px;
+}
+.clr{
+	background-color: #f44336;;
+}
+.hsl{
+	background-color: #008CBA;
+}
+
+.btn:active{
+    font-size: 10px;
+}
+
+h1{
+     font-size: 30px; 
+     color:cadetblue;
+     text-align: center;   
+}
